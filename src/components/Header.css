@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.logo-name {
+  width: 20%;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+.nav-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 60%;
+}
+.nav-item {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+  border: 1.5px solid black;
+  border-radius: 4px;
+}
+.input {
+  border: none;
+  outline: none;
+}
+.search-icon {
+  border: none;
+}

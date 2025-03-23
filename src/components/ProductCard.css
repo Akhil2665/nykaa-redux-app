@@ -1,0 +1,41 @@
+.product-card {
+  height: 320px;
+  width: 220px;
+  box-shadow: 1px 2px 3px 2px #d8dee6;
+  margin-right: 40px;
+  margin-bottom: 60px;
+  padding: 14px;
+  border-radius: 12px;
+  background-color: white;
+  padding-bottom: 14px;
+}
+.product-image-container {
+  height: 160px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.discount-tag {
+  color: red;
+  font-size: 10px;
+}
+.product-brand {
+  font-size: 12px;
+}
+.product-image {
+  height: 160px;
+  width: 90%;
+}
+.original-price {
+  text-decoration: line-through;
+  color: #ba71c7;
+}
+.final-price {
+  color: green;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.product-name {
+  height: 40px;
+  overflow: hidden;
+}

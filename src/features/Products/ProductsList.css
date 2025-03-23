@@ -1,0 +1,10 @@
+.products-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.section-title {
+  padding-left: 40px;
+}
